@@ -1,7 +1,7 @@
 name: Rebuild Container Image
 on: # rebuild on any base.Dockerfile or Dockerfile changes
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - .devcontainer/Dockerfile
 
