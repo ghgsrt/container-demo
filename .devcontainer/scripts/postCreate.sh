@@ -1,6 +1,5 @@
 {
-    npm i
-    git config --global user.email \"${localEnv:GIT_EMAIL}\"
-    git config --global user.name \"${localEnv:GIT_USER}\"
-    npx tailwindcss-cli -i ./src/style.css -o ./dist/style.css --watch
+    rustup toolchain install nightly
+    rustup default nightly
+    rustup target add wasm32-unknown-unknown
 }
