@@ -2,11 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/typescript-node
 {
 	"name": "container-demo",
-	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.17",
-	"features": {
-		"ghcr.io/devcontainers/features/rust:1": {},
-		"devwasm.azurecr.io/dev-wasm/dev-wasm-feature/rust-wasi:0": {}
-	},
+	"image": "ghcr.io/ghgsrt/data-dungeon:latest",
 	"containerEnv": {
 		"DISPLAY": "host.docker.internal:0.0",
 		"NO_AT_BRIDGE": "1"
